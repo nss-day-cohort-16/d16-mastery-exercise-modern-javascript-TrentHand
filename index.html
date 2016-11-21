@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cyborgs, DIE!!!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Cyborgs, prepare for battle!</h1>
+<!--                 <h2>Player 1, please enter your name: </h2>
+ -->            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="player_names">
+            <img id="name_button" class="featurette-image img-circle img-responsive pull-right" src="images/continuebutton.jpg" width="250px" height="250px">
+            <h2 class="featurette-heading">Please enter your names:
+            </h2>
+
+            <input type=text id="player1NameInput" placeholder="Enter Player 1 Name: " value="">
+
+            <input type=text id="player2NameInput" placeholder="Enter Player 2 Name: " value="">
+                <!-- <span class="text-muted">Will Catch Your Eye</span> -->
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette hidden" id="robot_type">
+            <img id="type_button" class="featurette-image img-circle img-responsive pull-left" src="images/continuebutton.jpg" width="250px" height="250px">
+						<p id="type_name_p1">Player 1 Type:</p>
+						<table class="radio_options">
+							<tr>
+								<td><input type="radio" name="type" value="terminator"> Terminator</td>
+
+							</tr>
+							<tr>
+								<td><input type="radio" name="type" value="cylon"> Cylon</td>
+
+							</tr>
+							<tr>
+								<td><input type="radio" name="type" value="robocop"> Robocop</td>
+							</tr>
+						</table>
+
+						<p id="type_name_p2">Player 2 Type:</p>
+						<table class="radio_options">
+							<tr>
+								<td><input type="radio" name="type2" value="terminator"> Terminator</td>
+
+							</tr>
+							<tr>
+								<td><input type="radio" name="type2" value="cylon"> Cylon</td>
+
+							</tr>
+							<tr>
+								<td><input type="radio" name="type2" value="robocop"> Robocop</td>
+							</tr>
+						</table>
+				</div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette hidden" id="robot_class">
+            <img id="class_button" class="featurette-image img-circle img-responsive pull-right" src="images/fightbutton.jpg" height="250px" width="250px">
+            <h2 class="featurette-heading">What is your specialty?
+                <!-- <span class="text-muted">Will Seal the Deal.</span> -->
+            </h2>
+						<p id="class_name_p1">Player 1 class:</p>
+            <table class="radio_options">
+							<tr>
+								<td><input type="radio" name="class" value="stealth"> Stealth</td>
+								<td><input type="radio" name="class" value="power"> Power</td>
+							</tr>
+						</table>
+						<p id="class_name_p2">Player 2 class:</p>
+            <table class="radio_options">
+							<tr>
+								<td><input type="radio" name="class2" value="stealth"> Stealth</td>
+								<td><input type="radio" name="class2" value="power"> Power</td>
+							</tr>
+						</table>
+        </div>
+
+         <div class="featurette hidden" id="combat_screen">
+            <img id="class_button" class="featurette-image img-circle img-responsive pull-right" src="images/fightbutton.jpg" height="250px" width="250px">
+            <h2 class="featurette-heading">To the Death!!!
+                <!-- <span class="text-muted">Will Seal the Deal.</span> -->
+            </h2>
+
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Trent Hand 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="dist/app.js"></script>
+
+</body>
+
+</html>
